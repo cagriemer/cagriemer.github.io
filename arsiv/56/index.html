@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+
+        <title>56. Sayi - Ubuntu Turkiye E-Dergisi SUDO</title>
+
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome-4.0.3.css" rel="stylesheet">
+        <link href="../../css/prettify-1.0.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <!-- Main title -->
+            <a class="navbar-brand" href="../..">Ubuntu Turkiye E-Dergisi SUDO</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            <!-- Main navigation -->
+            <ul class="nav navbar-nav">
+            
+            
+                <li >
+                    <a href="../..">Anasayfa</a>
+                </li>
+            
+            
+            
+                <li >
+                    <a href="../../sonsayi/">Son Sayi</a>
+                </li>
+            
+            
+            
+                <li class="dropdown active">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Arsiv <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        <li >
+                            <a href="../57/">57. Sayi</a>
+                        </li>
+                    
+                        <li class="active">
+                            <a href="./">56. Sayi</a>
+                        </li>
+                    
+                    </ul>
+                </li>
+            
+            
+            
+                <li >
+                    <a href="../../iletisim/">Iletisim</a>
+                </li>
+            
+            
+            
+                <li >
+                    <a href="../../hakkinda/">Hakkinda</a>
+                </li>
+            
+            
+            </ul>
+
+            <!-- Search, Navigation and Repo links -->
+            <ul class="nav navbar-nav navbar-right">
+                
+                <li >
+                    <a rel="next" href="../57/">
+                        <i class="fa fa-arrow-left"></i> Previous
+                    </a>
+                </li>
+                <li >
+                    <a rel="prev" href="../../iletisim/">
+                        Next <i class="fa fa-arrow-right"></i>
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+            <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#editorden">Editorden</a></li>
+        
+    
+        <li class="main "><a href="#sifreler-clipperza-emanet">Sifreler Clipperz'a Emanet</a></li>
+        
+    
+        <li class="main "><a href="#scribusta-tasarim-vii">Scribus'ta Tasarim -VII</a></li>
+        
+    
+        <li class="main "><a href="#trine-2">Trine 2</a></li>
+        
+    
+        <li class="main "><a href="#paralel-hesaplama-beowulf-cluster">Paralel Hesaplama - Beowulf Cluster</a></li>
+        
+    
+        <li class="main "><a href="#kurulumda-disk-yapilandirmasi">Kurulumda Disk Yapilandirmasi</a></li>
+        
+    
+        <li class="main "><a href="#haberler">Haberler</a></li>
+        
+    
+    </ul>
+</div></div>
+            <div class="col-md-9" role="main">
+
+<h3 id="editorden"><a href="#editorden">Editorden</a></h3>
+<p><strong>Ceren Calici</strong></p>
+<p><em>Yeni Bir Ubuntu</em></p>
+<p>"Yeni bir Ubuntu" dediysem, öyle çok büyük, aman aman değişikliklerin
+olduğu bir Ubuntu'dan söz etmiyorum. Misal, Unity ile tanıştığımızda
+yaşadığımız gibi bir yenilik yok yeni Ubuntu 13.10'da. Ama yeni mi? Evet.
+Yine bir dünya güzellik bekliyor Ubuntuseverleri.</p>
+<p>Canonical'in her altı ayda bir hayatımıza heyecan katması elbette harika.
+Ama hâlâ konuştuğum çoğu Ubuntucu, 12.04 LTS'yi bırakmak istemiyor.
+Ben de bunlardan biriyim. Yine de gerisayım yapıyor muyuz? Tabii ki, şöyle
+bir havasını soluyorum yeni sürümlerin sonuçta, ondan sonra başlangıç
+noktama geri dönüyorum. Ama siz her altı ayda sürüm
+yenileyenlerdenseniz bu sürümün yine beğendiğiniz nitelikler sunacağına
+inanıyorum. Öyle ya da böyle, dediğim gibi, bu bekleyiş bile güzel.</p>
+<p>Yeni Ubuntu'nuzu güle güle kullanın. Ama SUDO'yu da ihmal etmeyin olur
+mu? Yine güzel bir sayı okumanız için epey emek verdik çünkü.
+Keyifli okumalar...</p>
+<h3 id="sifreler-clipperza-emanet"><a href="#sifreler-clipperza-emanet">Sifreler Clipperz'a Emanet </a></h3>
+<p><strong>Cagri Emer</strong></p>
+<p><em>Son zamanların havalı terimi bulut bilişim malumunuz. Bulut servislerin yaygınlaşmasıyla
+birlikte kullandığımız çevrimiçi hesapların sayısı da doğal olarak arttı. Peki her yeni hesap
+için farklı parolalar mı kullanıyoruz yoksa var olan parolalarımızı yeniden kullanmayı mı
+tercih ediyoruz?</em></p>
+<p>Bir finans firmasının araştırmasına göre ortalama 26
+çevrimiçi servis için kullanıcılar 5 farklı parola <a href="http://www.techradar.com/au/news/internet/online-fraud-too-many-accounts-too-few-passwords-1089283">kullanı-
+yorlarmış.</a> Her hesabımız için farklı ve yeterli
+entropiye sahip bir parola kullanıp bütün bu parolaları
+akılda tutmak mümkün mü? Bu arada parola demişken
+XKCD klasiklerinden birini de paylaşmadan <a href="https://xkcd.com/936/">geçmeyelim</a>.
+Bir önceki paragraftaki soruya benim cevabım hayır
+olduğundan bir süredir işimi görecek bir parola
+yöneticisi arıyordum. Bu yazının konusu olan Clipperz
+ile bu sayede tanıştım. Clipperz, LastPass gibi çevrimiçi
+çalışabilen fakat yerelinizde de sorunsuzca kullanabile-
+ceğiniz dijital bir kasa görevini üstleniyor. Böylelikle tek
+bir ana parola ile tüm kullandığınız servislere erişme
+imkânınız oluyor. Üstelik bir hesaba ait bilgilerin
+çalınması durumunda diğer hesaplarınızı nasıl
+koruyacağınızı düşünmenize gerek kalmıyor. Clipperz
+özel notlarınızı, kredi kartı bilgilerinizi, eğer
+kullanıyorsanız çeşitli yazılımlara ait anahtarları ve de
+parolalarınızı 256 bit anahtar uzunluğuna sahip AES
+şifreleme methodu ile <a href="https://www.clipperz.com/security_privacy/crypto_algorithms/">şifreliyor</a>. (Aramızdaki kripto
+meraklıları için CTR modunun kullanıldığı notunu da
+düşelim.) Dikkate değer diğer bir özelliği de AGPL ile
+lisanslanmış özgür bir yazılım olması.
+Clipperz'ı github'dan alıp kurulumuna geçmeden önce
+öne çıkan diğer özelliklerinden de biraz bahsetmekte
+fayda var. Yazının ilerleyen kısımlarında uygulamalarını gorecegimiz
+bu ozellikler kabaca soyle;</p>
+<ul>
+<li><em>Çevrimdışı kopya</em>: Bütün parolalarınızı Clipperz'a tes-
+lim ettiğinizi düşünün. Ortalama 1 9-20 haneli ve
+noktalama işaretlerinin de dahil olduğu bir karakter
+setinden oluşturulmuş bu parolaları bilgisayarınız
+dışında bir yerden bir hesabınıza erişmek istediğinizde
+muhtemelen hatırlayamayacaksınız. Çevrimdışı kopya
+özelliği ile sadece okunur modda ve güvenlikten taviz
+vermeden verinizin bir kopyasını USB belleğinize alabilir
+ve sürekli yanınızda taşıyabilirsiniz.</li>
+<li><em>Doğrudan kimlik kanıtlama</em>: Clipperz'la birlikte gelen
+bir javascript kodu sayesinde tarayıcınıza ekleyeceğiniz
+bir yerimi giriş yapmak için kullandığınız sitedeki
+formun kopyasını uygulamaya alabiliyor. Eğer hesap
+bilgilerinizi de bu forma eklerseniz Clipperz
+oturumunuzu açtıktan sonra tek bir tıklama ile bu
+kayıtlı hesabınıza erişebiliyorsunuz.</li>
+<li><em>Veri içe/dışa aktarımı</em>: Değişik formatlarda hesap bilgi-
+lerinizi uygulamaya aktarabiliyorsunuz. Aynı şekilde
+json ya da düz metin olarak çıktı da alabiliyorsunuz.</li>
+<li><em>Tek seferlik parolalar</em>: Clipperz'a giriş için kullanılabi-
+lecek tek seferlik parolalar üretebiliyorsunuz. Böylece
+ana parolanızı unutsanız bile daha önceden bir yere
+yedeklediğiniz tek seferlik şifre ile bilgilerinize
+ulaşmanız mümkün oluyor.</li>
+</ul>
+<p><strong>Kurulum</strong></p>
+<p>Uyguluma geri planda PHP ve Python kullanabiliyor.
+Ben PHP ve MySQL ikilisi üzerinden anlatmayı tercih
+ettim. Terminal açtıktan sonra bağımlılıkları kurarak işe
+başlıyoruz.</p>
+<pre class="prettyprint well"><code>sudo apt-get install git python-git apache2 libapache2-mod-php5 php5-mysql mysql-server
+</code></pre>
+
+<p>Bir de imaj koyalim demo olmasi adina.</p>
+<p><img alt="clipperz1" src="../img/clipperz-imaj1.png" /></p>
+<h3 id="scribusta-tasarim-vii"><a href="#scribusta-tasarim">Scribus'ta Tasarim -VII</a></h3>
+<p><strong>Cagri Emer</strong></p>
+<p><em>Son zamanların havalı terimi bulut bilişim malumunuz. Bulut servislerin yaygınlaşmasıyla
+birlikte kullandığımız çevrimiçi hesapların sayısı da doğal olarak arttı. Peki her yeni hesap
+için farklı parolalar mı kullanıyoruz yoksa var olan parolalarımızı yeniden kullanmayı mı
+tercih ediyoruz?</em></p>
+<p>Bir finans firmasının araştırmasına göre ortalama 26
+çevrimiçi servis için kullanıcılar 5 farklı parola <a href="http://www.techradar.com/au/news/internet/online-fraud-too-many-accounts-too-few-passwords-1089283">kullanı-
+yorlarmış.</a> Her hesabımız için farklı ve yeterli
+entropiye sahip bir parola kullanıp bütün bu parolaları
+akılda tutmak mümkün mü? Bu arada parola demişken
+XKCD klasiklerinden birini de paylaşmadan <a href="https://xkcd.com/936/">geçmeyelim</a>.
+Bir önceki paragraftaki soruya benim cevabım hayır
+olduğundan bir süredir işimi görecek bir parola
+yöneticisi arıyordum. Bu yazının konusu olan Clipperz
+ile bu sayede tanıştım. Clipperz, LastPass gibi çevrimiçi
+çalışabilen fakat yerelinizde de sorunsuzca kullanabile-
+ceğiniz dijital bir kasa görevini üstleniyor. Böylelikle tek
+bir ana parola ile tüm kullandığınız servislere erişme
+imkânınız oluyor. Üstelik bir hesaba ait bilgilerin
+çalınması durumunda diğer hesaplarınızı nasıl
+koruyacağınızı düşünmenize gerek kalmıyor. Clipperz
+özel notlarınızı, kredi kartı bilgilerinizi, eğer
+kullanıyorsanız çeşitli yazılımlara ait anahtarları ve de
+parolalarınızı 256 bit anahtar uzunluğuna sahip AES
+şifreleme methodu ile <a href="https://www.clipperz.com/security_privacy/crypto_algorithms/">şifreliyor</a>. (Aramızdaki kripto
+meraklıları için CTR modunun kullanıldığı notunu da
+düşelim.) Dikkate değer diğer bir özelliği de AGPL ile
+lisanslanmış özgür bir yazılım olması.
+Clipperz'ı github'dan alıp kurulumuna geçmeden önce
+öne çıkan diğer özelliklerinden de biraz bahsetmekte
+fayda var. Yazının ilerleyen kısımlarında uygulamalarını gorecegimiz
+bu ozellikler kabaca soyle;</p>
+<ul>
+<li><em>Çevrimdışı kopya</em>: Bütün parolalarınızı Clipperz'a tes-
+lim ettiğinizi düşünün. Ortalama 1 9-20 haneli ve
+noktalama işaretlerinin de dahil olduğu bir karakter
+setinden oluşturulmuş bu parolaları bilgisayarınız
+dışında bir yerden bir hesabınıza erişmek istediğinizde
+muhtemelen hatırlayamayacaksınız. Çevrimdışı kopya
+özelliği ile sadece okunur modda ve güvenlikten taviz
+vermeden verinizin bir kopyasını USB belleğinize alabilir
+ve sürekli yanınızda taşıyabilirsiniz.</li>
+<li><em>Doğrudan kimlik kanıtlama</em>: Clipperz'la birlikte gelen
+bir javascript kodu sayesinde tarayıcınıza ekleyeceğiniz
+bir yerimi giriş yapmak için kullandığınız sitedeki
+formun kopyasını uygulamaya alabiliyor. Eğer hesap
+bilgilerinizi de bu forma eklerseniz Clipperz
+oturumunuzu açtıktan sonra tek bir tıklama ile bu
+kayıtlı hesabınıza erişebiliyorsunuz.</li>
+<li><em>Veri içe/dışa aktarımı</em>: Değişik formatlarda hesap bilgi-
+lerinizi uygulamaya aktarabiliyorsunuz. Aynı şekilde
+json ya da düz metin olarak çıktı da alabiliyorsunuz.</li>
+<li><em>Tek seferlik parolalar</em>: Clipperz'a giriş için kullanılabi-
+lecek tek seferlik parolalar üretebiliyorsunuz. Böylece
+ana parolanızı unutsanız bile daha önceden bir yere
+yedeklediğiniz tek seferlik şifre ile bilgilerinize
+ulaşmanız mümkün oluyor.</li>
+</ul>
+<p><strong>Kurulum</strong></p>
+<p>Uyguluma geri planda PHP ve Python kullanabiliyor.
+Ben PHP ve MySQL ikilisi üzerinden anlatmayı tercih
+ettim. Terminal açtıktan sonra bağımlılıkları kurarak işe
+başlıyoruz.</p>
+<pre class="prettyprint well"><code>sudo apt-get install git python-git apache2 libapache2-mod-php5 php5-mysql mysql-server
+</code></pre>
+
+<p>Bir de imaj koyalim demo olmasi adina.</p>
+<p><img alt="clipperz1" src="../img/clipperz-imaj1.png" /></p>
+<h3 id="trine-2"><a href="#trine-2">Trine 2</a></h3>
+<p><strong>Cagri Emer</strong></p>
+<p><em>Son zamanların havalı terimi bulut bilişim malumunuz. Bulut servislerin yaygınlaşmasıyla
+birlikte kullandığımız çevrimiçi hesapların sayısı da doğal olarak arttı. Peki her yeni hesap
+için farklı parolalar mı kullanıyoruz yoksa var olan parolalarımızı yeniden kullanmayı mı
+tercih ediyoruz?</em></p>
+<p>Bir finans firmasının araştırmasına göre ortalama 26
+çevrimiçi servis için kullanıcılar 5 farklı parola <a href="http://www.techradar.com/au/news/internet/online-fraud-too-many-accounts-too-few-passwords-1089283">kullanı-
+yorlarmış.</a> Her hesabımız için farklı ve yeterli
+entropiye sahip bir parola kullanıp bütün bu parolaları
+akılda tutmak mümkün mü? Bu arada parola demişken
+XKCD klasiklerinden birini de paylaşmadan <a href="https://xkcd.com/936/">geçmeyelim</a>.
+Bir önceki paragraftaki soruya benim cevabım hayır
+olduğundan bir süredir işimi görecek bir parola
+yöneticisi arıyordum. Bu yazının konusu olan Clipperz
+ile bu sayede tanıştım. Clipperz, LastPass gibi çevrimiçi
+çalışabilen fakat yerelinizde de sorunsuzca kullanabile-
+ceğiniz dijital bir kasa görevini üstleniyor. Böylelikle tek
+bir ana parola ile tüm kullandığınız servislere erişme
+imkânınız oluyor. Üstelik bir hesaba ait bilgilerin
+çalınması durumunda diğer hesaplarınızı nasıl
+koruyacağınızı düşünmenize gerek kalmıyor. Clipperz
+özel notlarınızı, kredi kartı bilgilerinizi, eğer
+kullanıyorsanız çeşitli yazılımlara ait anahtarları ve de
+parolalarınızı 256 bit anahtar uzunluğuna sahip AES
+şifreleme methodu ile <a href="https://www.clipperz.com/security_privacy/crypto_algorithms/">şifreliyor</a>. (Aramızdaki kripto
+meraklıları için CTR modunun kullanıldığı notunu da
+düşelim.) Dikkate değer diğer bir özelliği de AGPL ile
+lisanslanmış özgür bir yazılım olması.
+Clipperz'ı github'dan alıp kurulumuna geçmeden önce
+öne çıkan diğer özelliklerinden de biraz bahsetmekte
+fayda var. Yazının ilerleyen kısımlarında uygulamalarını gorecegimiz
+bu ozellikler kabaca soyle;</p>
+<ul>
+<li><em>Çevrimdışı kopya</em>: Bütün parolalarınızı Clipperz'a tes-
+lim ettiğinizi düşünün. Ortalama 1 9-20 haneli ve
+noktalama işaretlerinin de dahil olduğu bir karakter
+setinden oluşturulmuş bu parolaları bilgisayarınız
+dışında bir yerden bir hesabınıza erişmek istediğinizde
+muhtemelen hatırlayamayacaksınız. Çevrimdışı kopya
+özelliği ile sadece okunur modda ve güvenlikten taviz
+vermeden verinizin bir kopyasını USB belleğinize alabilir
+ve sürekli yanınızda taşıyabilirsiniz.</li>
+<li><em>Doğrudan kimlik kanıtlama</em>: Clipperz'la birlikte gelen
+bir javascript kodu sayesinde tarayıcınıza ekleyeceğiniz
+bir yerimi giriş yapmak için kullandığınız sitedeki
+formun kopyasını uygulamaya alabiliyor. Eğer hesap
+bilgilerinizi de bu forma eklerseniz Clipperz
+oturumunuzu açtıktan sonra tek bir tıklama ile bu
+kayıtlı hesabınıza erişebiliyorsunuz.</li>
+<li><em>Veri içe/dışa aktarımı</em>: Değişik formatlarda hesap bilgi-
+lerinizi uygulamaya aktarabiliyorsunuz. Aynı şekilde
+json ya da düz metin olarak çıktı da alabiliyorsunuz.</li>
+<li><em>Tek seferlik parolalar</em>: Clipperz'a giriş için kullanılabi-
+lecek tek seferlik parolalar üretebiliyorsunuz. Böylece
+ana parolanızı unutsanız bile daha önceden bir yere
+yedeklediğiniz tek seferlik şifre ile bilgilerinize
+ulaşmanız mümkün oluyor.</li>
+</ul>
+<p><strong>Kurulum</strong></p>
+<p>Uyguluma geri planda PHP ve Python kullanabiliyor.
+Ben PHP ve MySQL ikilisi üzerinden anlatmayı tercih
+ettim. Terminal açtıktan sonra bağımlılıkları kurarak işe
+başlıyoruz.</p>
+<pre class="prettyprint well"><code>sudo apt-get install git python-git apache2 libapache2-mod-php5 php5-mysql mysql-server
+</code></pre>
+
+<p>Bir de imaj koyalim demo olmasi adina.</p>
+<p><img alt="clipperz1" src="../img/clipperz-imaj1.png" /></p>
+<h3 id="paralel-hesaplama-beowulf-cluster"><a href="#paralel-hesaplama-beowulf-cluster">Paralel Hesaplama - Beowulf Cluster</a></h3>
+<p><strong>Cagri Emer</strong></p>
+<p><em>Son zamanların havalı terimi bulut bilişim malumunuz. Bulut servislerin yaygınlaşmasıyla
+birlikte kullandığımız çevrimiçi hesapların sayısı da doğal olarak arttı. Peki her yeni hesap
+için farklı parolalar mı kullanıyoruz yoksa var olan parolalarımızı yeniden kullanmayı mı
+tercih ediyoruz?</em></p>
+<p>Bir finans firmasının araştırmasına göre ortalama 26
+çevrimiçi servis için kullanıcılar 5 farklı parola <a href="http://www.techradar.com/au/news/internet/online-fraud-too-many-accounts-too-few-passwords-1089283">kullanı-
+yorlarmış.</a> Her hesabımız için farklı ve yeterli
+entropiye sahip bir parola kullanıp bütün bu parolaları
+akılda tutmak mümkün mü? Bu arada parola demişken
+XKCD klasiklerinden birini de paylaşmadan <a href="https://xkcd.com/936/">geçmeyelim</a>.
+Bir önceki paragraftaki soruya benim cevabım hayır
+olduğundan bir süredir işimi görecek bir parola
+yöneticisi arıyordum. Bu yazının konusu olan Clipperz
+ile bu sayede tanıştım. Clipperz, LastPass gibi çevrimiçi
+çalışabilen fakat yerelinizde de sorunsuzca kullanabile-
+ceğiniz dijital bir kasa görevini üstleniyor. Böylelikle tek
+bir ana parola ile tüm kullandığınız servislere erişme
+imkânınız oluyor. Üstelik bir hesaba ait bilgilerin
+çalınması durumunda diğer hesaplarınızı nasıl
+koruyacağınızı düşünmenize gerek kalmıyor. Clipperz
+özel notlarınızı, kredi kartı bilgilerinizi, eğer
+kullanıyorsanız çeşitli yazılımlara ait anahtarları ve de
+parolalarınızı 256 bit anahtar uzunluğuna sahip AES
+şifreleme methodu ile <a href="https://www.clipperz.com/security_privacy/crypto_algorithms/">şifreliyor</a>. (Aramızdaki kripto
+meraklıları için CTR modunun kullanıldığı notunu da
+düşelim.) Dikkate değer diğer bir özelliği de AGPL ile
+lisanslanmış özgür bir yazılım olması.
+Clipperz'ı github'dan alıp kurulumuna geçmeden önce
+öne çıkan diğer özelliklerinden de biraz bahsetmekte
+fayda var. Yazının ilerleyen kısımlarında uygulamalarını gorecegimiz
+bu ozellikler kabaca soyle;</p>
+<ul>
+<li><em>Çevrimdışı kopya</em>: Bütün parolalarınızı Clipperz'a tes-
+lim ettiğinizi düşünün. Ortalama 1 9-20 haneli ve
+noktalama işaretlerinin de dahil olduğu bir karakter
+setinden oluşturulmuş bu parolaları bilgisayarınız
+dışında bir yerden bir hesabınıza erişmek istediğinizde
+muhtemelen hatırlayamayacaksınız. Çevrimdışı kopya
+özelliği ile sadece okunur modda ve güvenlikten taviz
+vermeden verinizin bir kopyasını USB belleğinize alabilir
+ve sürekli yanınızda taşıyabilirsiniz.</li>
+<li><em>Doğrudan kimlik kanıtlama</em>: Clipperz'la birlikte gelen
+bir javascript kodu sayesinde tarayıcınıza ekleyeceğiniz
+bir yerimi giriş yapmak için kullandığınız sitedeki
+formun kopyasını uygulamaya alabiliyor. Eğer hesap
+bilgilerinizi de bu forma eklerseniz Clipperz
+oturumunuzu açtıktan sonra tek bir tıklama ile bu
+kayıtlı hesabınıza erişebiliyorsunuz.</li>
+<li><em>Veri içe/dışa aktarımı</em>: Değişik formatlarda hesap bilgi-
+lerinizi uygulamaya aktarabiliyorsunuz. Aynı şekilde
+json ya da düz metin olarak çıktı da alabiliyorsunuz.</li>
+<li><em>Tek seferlik parolalar</em>: Clipperz'a giriş için kullanılabi-
+lecek tek seferlik parolalar üretebiliyorsunuz. Böylece
+ana parolanızı unutsanız bile daha önceden bir yere
+yedeklediğiniz tek seferlik şifre ile bilgilerinize
+ulaşmanız mümkün oluyor.</li>
+</ul>
+<p><strong>Kurulum</strong></p>
+<p>Uyguluma geri planda PHP ve Python kullanabiliyor.
+Ben PHP ve MySQL ikilisi üzerinden anlatmayı tercih
+ettim. Terminal açtıktan sonra bağımlılıkları kurarak işe
+başlıyoruz.</p>
+<pre class="prettyprint well"><code>sudo apt-get install git python-git apache2 libapache2-mod-php5 php5-mysql mysql-server
+</code></pre>
+
+<p>Bir de imaj koyalim demo olmasi adina.</p>
+<p><img alt="clipperz1" src="../img/clipperz-imaj1.png" /></p>
+<h3 id="kurulumda-disk-yapilandirmasi"><a href="#kurulumda-disk-yapilandirmasi">Kurulumda Disk Yapilandirmasi</a></h3>
+<p><strong>Cagri Emer</strong></p>
+<p><em>Son zamanların havalı terimi bulut bilişim malumunuz. Bulut servislerin yaygınlaşmasıyla
+birlikte kullandığımız çevrimiçi hesapların sayısı da doğal olarak arttı. Peki her yeni hesap
+için farklı parolalar mı kullanıyoruz yoksa var olan parolalarımızı yeniden kullanmayı mı
+tercih ediyoruz?</em></p>
+<p>Bir finans firmasının araştırmasına göre ortalama 26
+çevrimiçi servis için kullanıcılar 5 farklı parola <a href="http://www.techradar.com/au/news/internet/online-fraud-too-many-accounts-too-few-passwords-1089283">kullanı-
+yorlarmış.</a> Her hesabımız için farklı ve yeterli
+entropiye sahip bir parola kullanıp bütün bu parolaları
+akılda tutmak mümkün mü? Bu arada parola demişken
+XKCD klasiklerinden birini de paylaşmadan <a href="https://xkcd.com/936/">geçmeyelim</a>.
+Bir önceki paragraftaki soruya benim cevabım hayır
+olduğundan bir süredir işimi görecek bir parola
+yöneticisi arıyordum. Bu yazının konusu olan Clipperz
+ile bu sayede tanıştım. Clipperz, LastPass gibi çevrimiçi
+çalışabilen fakat yerelinizde de sorunsuzca kullanabile-
+ceğiniz dijital bir kasa görevini üstleniyor. Böylelikle tek
+bir ana parola ile tüm kullandığınız servislere erişme
+imkânınız oluyor. Üstelik bir hesaba ait bilgilerin
+çalınması durumunda diğer hesaplarınızı nasıl
+koruyacağınızı düşünmenize gerek kalmıyor. Clipperz
+özel notlarınızı, kredi kartı bilgilerinizi, eğer
+kullanıyorsanız çeşitli yazılımlara ait anahtarları ve de
+parolalarınızı 256 bit anahtar uzunluğuna sahip AES
+şifreleme methodu ile <a href="https://www.clipperz.com/security_privacy/crypto_algorithms/">şifreliyor</a>. (Aramızdaki kripto
+meraklıları için CTR modunun kullanıldığı notunu da
+düşelim.) Dikkate değer diğer bir özelliği de AGPL ile
+lisanslanmış özgür bir yazılım olması.
+Clipperz'ı github'dan alıp kurulumuna geçmeden önce
+öne çıkan diğer özelliklerinden de biraz bahsetmekte
+fayda var. Yazının ilerleyen kısımlarında uygulamalarını gorecegimiz
+bu ozellikler kabaca soyle;</p>
+<ul>
+<li><em>Çevrimdışı kopya</em>: Bütün parolalarınızı Clipperz'a tes-
+lim ettiğinizi düşünün. Ortalama 1 9-20 haneli ve
+noktalama işaretlerinin de dahil olduğu bir karakter
+setinden oluşturulmuş bu parolaları bilgisayarınız
+dışında bir yerden bir hesabınıza erişmek istediğinizde
+muhtemelen hatırlayamayacaksınız. Çevrimdışı kopya
+özelliği ile sadece okunur modda ve güvenlikten taviz
+vermeden verinizin bir kopyasını USB belleğinize alabilir
+ve sürekli yanınızda taşıyabilirsiniz.</li>
+<li><em>Doğrudan kimlik kanıtlama</em>: Clipperz'la birlikte gelen
+bir javascript kodu sayesinde tarayıcınıza ekleyeceğiniz
+bir yerimi giriş yapmak için kullandığınız sitedeki
+formun kopyasını uygulamaya alabiliyor. Eğer hesap
+bilgilerinizi de bu forma eklerseniz Clipperz
+oturumunuzu açtıktan sonra tek bir tıklama ile bu
+kayıtlı hesabınıza erişebiliyorsunuz.</li>
+<li><em>Veri içe/dışa aktarımı</em>: Değişik formatlarda hesap bilgi-
+lerinizi uygulamaya aktarabiliyorsunuz. Aynı şekilde
+json ya da düz metin olarak çıktı da alabiliyorsunuz.</li>
+<li><em>Tek seferlik parolalar</em>: Clipperz'a giriş için kullanılabi-
+lecek tek seferlik parolalar üretebiliyorsunuz. Böylece
+ana parolanızı unutsanız bile daha önceden bir yere
+yedeklediğiniz tek seferlik şifre ile bilgilerinize
+ulaşmanız mümkün oluyor.</li>
+</ul>
+<p><strong>Kurulum</strong></p>
+<p>Uyguluma geri planda PHP ve Python kullanabiliyor.
+Ben PHP ve MySQL ikilisi üzerinden anlatmayı tercih
+ettim. Terminal açtıktan sonra bağımlılıkları kurarak işe
+başlıyoruz.</p>
+<pre class="prettyprint well"><code>sudo apt-get install git python-git apache2 libapache2-mod-php5 php5-mysql mysql-server
+</code></pre>
+
+<p>Bir de imaj koyalim demo olmasi adina.</p>
+<p><img alt="clipperz1" src="../img/clipperz-imaj1.png" /></p>
+<h3 id="haberler"><a href="#haberler">Haberler</a></h3>
+<p><strong>Cagri Emer</strong></p>
+<p><em>Son zamanların havalı terimi bulut bilişim malumunuz. Bulut servislerin yaygınlaşmasıyla
+birlikte kullandığımız çevrimiçi hesapların sayısı da doğal olarak arttı. Peki her yeni hesap
+için farklı parolalar mı kullanıyoruz yoksa var olan parolalarımızı yeniden kullanmayı mı
+tercih ediyoruz?</em></p>
+<p>Bir finans firmasının araştırmasına göre ortalama 26
+çevrimiçi servis için kullanıcılar 5 farklı parola <a href="http://www.techradar.com/au/news/internet/online-fraud-too-many-accounts-too-few-passwords-1089283">kullanı-
+yorlarmış.</a> Her hesabımız için farklı ve yeterli
+entropiye sahip bir parola kullanıp bütün bu parolaları
+akılda tutmak mümkün mü? Bu arada parola demişken
+XKCD klasiklerinden birini de paylaşmadan <a href="https://xkcd.com/936/">geçmeyelim</a>.
+Bir önceki paragraftaki soruya benim cevabım hayır
+olduğundan bir süredir işimi görecek bir parola
+yöneticisi arıyordum. Bu yazının konusu olan Clipperz
+ile bu sayede tanıştım. Clipperz, LastPass gibi çevrimiçi
+çalışabilen fakat yerelinizde de sorunsuzca kullanabile-
+ceğiniz dijital bir kasa görevini üstleniyor. Böylelikle tek
+bir ana parola ile tüm kullandığınız servislere erişme
+imkânınız oluyor. Üstelik bir hesaba ait bilgilerin
+çalınması durumunda diğer hesaplarınızı nasıl
+koruyacağınızı düşünmenize gerek kalmıyor. Clipperz
+özel notlarınızı, kredi kartı bilgilerinizi, eğer
+kullanıyorsanız çeşitli yazılımlara ait anahtarları ve de
+parolalarınızı 256 bit anahtar uzunluğuna sahip AES
+şifreleme methodu ile <a href="https://www.clipperz.com/security_privacy/crypto_algorithms/">şifreliyor</a>. (Aramızdaki kripto
+meraklıları için CTR modunun kullanıldığı notunu da
+düşelim.) Dikkate değer diğer bir özelliği de AGPL ile
+lisanslanmış özgür bir yazılım olması.
+Clipperz'ı github'dan alıp kurulumuna geçmeden önce
+öne çıkan diğer özelliklerinden de biraz bahsetmekte
+fayda var. Yazının ilerleyen kısımlarında uygulamalarını gorecegimiz
+bu ozellikler kabaca soyle;</p>
+<ul>
+<li><em>Çevrimdışı kopya</em>: Bütün parolalarınızı Clipperz'a tes-
+lim ettiğinizi düşünün. Ortalama 1 9-20 haneli ve
+noktalama işaretlerinin de dahil olduğu bir karakter
+setinden oluşturulmuş bu parolaları bilgisayarınız
+dışında bir yerden bir hesabınıza erişmek istediğinizde
+muhtemelen hatırlayamayacaksınız. Çevrimdışı kopya
+özelliği ile sadece okunur modda ve güvenlikten taviz
+vermeden verinizin bir kopyasını USB belleğinize alabilir
+ve sürekli yanınızda taşıyabilirsiniz.</li>
+<li><em>Doğrudan kimlik kanıtlama</em>: Clipperz'la birlikte gelen
+bir javascript kodu sayesinde tarayıcınıza ekleyeceğiniz
+bir yerimi giriş yapmak için kullandığınız sitedeki
+formun kopyasını uygulamaya alabiliyor. Eğer hesap
+bilgilerinizi de bu forma eklerseniz Clipperz
+oturumunuzu açtıktan sonra tek bir tıklama ile bu
+kayıtlı hesabınıza erişebiliyorsunuz.</li>
+<li><em>Veri içe/dışa aktarımı</em>: Değişik formatlarda hesap bilgi-
+lerinizi uygulamaya aktarabiliyorsunuz. Aynı şekilde
+json ya da düz metin olarak çıktı da alabiliyorsunuz.</li>
+<li><em>Tek seferlik parolalar</em>: Clipperz'a giriş için kullanılabi-
+lecek tek seferlik parolalar üretebiliyorsunuz. Böylece
+ana parolanızı unutsanız bile daha önceden bir yere
+yedeklediğiniz tek seferlik şifre ile bilgilerinize
+ulaşmanız mümkün oluyor.</li>
+</ul>
+<p><strong>Kurulum</strong></p>
+<p>Uyguluma geri planda PHP ve Python kullanabiliyor.
+Ben PHP ve MySQL ikilisi üzerinden anlatmayı tercih
+ettim. Terminal açtıktan sonra bağımlılıkları kurarak işe
+başlıyoruz.</p>
+<pre class="prettyprint well"><code>sudo apt-get install git python-git apache2 libapache2-mod-php5 php5-mysql mysql-server
+</code></pre>
+
+<p>Bir de imaj koyalim demo olmasi adina.</p>
+<p><img alt="clipperz1" src="../img/clipperz-imaj1.png" /></p>
+</div>
+        </div>
+
+        
+
+        <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script src="../../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../../js/prettify-1.0.min.js"></script>
+        <script src="../../js/base.js"></script>
+    </body>
+</html>
