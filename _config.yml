@@ -1,0 +1,14 @@
+name: "Sazliklardan Havalanan"
+author: "Cagri Emer"
+email: "cagri+blog@cagriemer.net"
+description: "Cogunlukla sistem yonetimi ile alakali yazilari topladigim blog" 
+meta_description: "GNU/Linux sistemler ve sunucu uygulamalari uzerine
+genellikle 'nasil' yazilarinin yer aldigi bir blog"
+baseurl: "/"
+url: "http://blog.cagriemer.net"
+
+markdown: kramdown
+highlighter: pygments
+permalik: pretty
+paginate: 8
+logo: false
