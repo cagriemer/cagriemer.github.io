@@ -4,8 +4,8 @@ email: "cagri+blog@cagriemer.net"
 description: "Cogunlukla sistem yonetimi ile alakali yazilari topladigim blog" 
 meta_description: "GNU/Linux sistemler ve sunucu uygulamalari uzerine
 genellikle 'nasil' yazilarinin yer aldigi bir blog"
-baseurl: "/"
-url: "http://blog.cagriemer.net"
+baseurl: ""
+url: ""
 
 markdown: kramdown
 highlighter: pygments
